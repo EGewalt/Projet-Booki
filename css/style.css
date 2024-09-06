@@ -91,6 +91,7 @@ nav a:hover {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -271,7 +272,7 @@ input::placeholder {
 }
 
 
-.button {
+.button-search {
     background-color: #0065FC;
     color: white;
     border: none;
@@ -286,18 +287,6 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     gap: 10px;
-}
-
-.button-mobile {
-    display: none; 
-    background-color: #0065FC;
-    color: white;
-    width: 49px;
-    height: 49px;
-    gap: 10px;
-    border-radius: 15px 16px 15px 16px;
-    cursor: pointer;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
 }
 
 .button-search i {
@@ -564,6 +553,7 @@ input::placeholder {
     .titre-filtre h3 {
         font-size: 18px;
     }
+    
 
     .button-eco,
     .button-roman,
@@ -612,6 +602,10 @@ input::placeholder {
     .card-activite img {
         width: 100%;
         height: 200px;
+    }
+
+    .card-activite {
+        height: 270px;
     }
 
     .card-activite-txt {
@@ -675,7 +669,6 @@ input::placeholder {
     .entete {
         display: flex;
         flex-direction: row;
-        justify-content: center; 
         align-items: center;
         width: 100%;
         height: 79px;
@@ -685,7 +678,8 @@ input::placeholder {
 
     .entete-text {
         width: 335px;
-        height: 109px;   
+        height: 109px;  
+        padding-left: 25px; 
     }
 
     /* Barre de recherche */
@@ -706,24 +700,28 @@ input::placeholder {
 
     .search-bar input {
         padding-left: 20px;
-        font-size: 18px;    
+        font-size: 18px;
+        width: 50%;  
     }
     
-    .button {
-        width: 100px;
-        height: 45px;
-        font-size: 12px;
+    .button-search{
+        width: 15%;
+        border-radius: 15px 15px 15px 15px;
     }
 
-    .button-mobile {
-        display: flex;
-        width: 49px;
-        height: 49px;
-        overflow: visible;
+    .icon-container {
+        width: 15%;
     }
 
-    .button-search {
+    .button-search span {
         display: none;
+    }
+
+    .button-search::before {
+        content: "\f002";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 17px;
     }
 
     /* Filtres */
