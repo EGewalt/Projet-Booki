@@ -296,14 +296,13 @@ input::placeholder {
  /* Section Boutons filtres */
 
  .filtre-contener {
-    width: 758px;
+    width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
     margin-top: 5px;
-    padding-bottom: 5px; /* Espace réduit en bas */
+    padding-bottom: 5px;
     padding-top: 5px;
-    justify-content: space-between;
 }
 
 .titre-filtre {
@@ -465,6 +464,7 @@ input::placeholder {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    width: 100%;
     background-color: rgba(242, 242, 242, 1);
     margin: -10px;
     margin-top: 30px;
@@ -539,7 +539,7 @@ input::placeholder {
     }
 
     .filtre-contener  {
-        width: 668px;
+        width: 100%;
         height: 91px;
         display: grid;
         padding-bottom: 2px;
@@ -626,7 +626,7 @@ input::placeholder {
     .main-container {
         padding: 0px;
         margin: 0px;
-        height: auto;
+        
     }
 
     /* Header */
@@ -641,7 +641,7 @@ input::placeholder {
         display: block;
         align-items: center;
         justify-content: center;
-        width: 375px;
+        width: 100%;
         height: auto; 
     }
     
@@ -649,7 +649,7 @@ input::placeholder {
         display: flex;
         justify-content: space-between; 
         border-bottom: solid 2px #f1f1f1; 
-        width: 375px;
+        width: 100%;
         margin-top: 0; 
     }
     
@@ -676,19 +676,21 @@ input::placeholder {
         padding-top: 20px;
     }
 
+
     .entete-text {
-        width: 335px;
-        height: 109px;  
-        padding-left: 25px; 
+        width: 80%;
+        height: 109px;
+        padding-left: 30px;
     }
 
     /* Barre de recherche */
 
     .search-contener {
-        padding-left: 20px;
         padding-bottom: 2px;
-        width: 335px;
+        width: 100%;
         height: 49px;
+        display: flex;
+        justify-content: center;
     }
 
     .search-bar {
@@ -727,11 +729,10 @@ input::placeholder {
     /* Filtres */
 
     .filtre-contener  {
-        width: 335px;
+        width: 90%;
         height: 161px;
         display: grid;
-        padding-bottom: 25px;
-        padding-left: 10px;
+        justify-content: center;
     }
 
     .titre-filtre {
@@ -786,9 +787,8 @@ input::placeholder {
     }
 
     .icon-text {
-        width: 335px;
-        height: 38px;
-        padding-left: 20px;
+        width: 100%;
+       
     }
 
     /* Hebergement et Populaire */
@@ -931,9 +931,10 @@ input::placeholder {
 
     .footer {
         flex-direction: column;
-        padding-left: 20px; 
         width: 100%;
-        height: 100%;    
+        height: 100%;
+        display: flex;
+        align-items: baseline;   
     }
 }
     
