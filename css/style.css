@@ -35,6 +35,7 @@ a {
     padding-left: 15px;
     padding-top: 10px;
     font-size: 22px;
+    width: 100%;
 }
 
 .card {
@@ -67,10 +68,12 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 nav a {
     padding: 40px;
+    width: 100%;
 }
 
 nav a:hover {
@@ -507,6 +510,12 @@ input::placeholder {
 /* Tablette */
 
 @media screen and (max-width: 1024px) {
+
+    .filtres {
+        display: flex;
+        
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -589,7 +598,7 @@ input::placeholder {
     }
 
     .icon-text {
-        width: 924px;
+        width: 100%;
         height: 24px;
         padding-top: 30px;
         padding-bottom: 10px;
@@ -621,11 +630,13 @@ input::placeholder {
         padding-top: 10px;
         margin: 0px;
         justify-content: center;
+        overflow-x: hidden;
     }
 
     .main-container {
         padding: 0px;
         margin: 0px;
+        width: 100%;
         
     }
 
@@ -678,7 +689,7 @@ input::placeholder {
 
 
     .entete-text {
-        width: 80%;
+        width: 90%;
         height: 109px;
         padding-left: 30px;
     }
@@ -694,7 +705,7 @@ input::placeholder {
     }
 
     .search-bar {
-        width: 335px;
+        width: 100%;
         height: 49px;
         align-items: center;
         justify-content: center;
@@ -924,8 +935,8 @@ input::placeholder {
     /* Footer */
 
     .footer-section {
-        width: 375px;
-        height: 461px;
+        width: 60%;
+        height: auto;
         overflow: hidden;
     }
 
