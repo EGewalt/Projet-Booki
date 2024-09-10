@@ -498,7 +498,6 @@ footer {
 
     .filtres {
         display: flex;
-        
     }
 
     .hebergements-and-populaires {
@@ -666,7 +665,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 100%;
+        width: 90%;
         height: 79px;
         padding-bottom: 35px;
         padding-top: 20px;
