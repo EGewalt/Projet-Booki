@@ -812,7 +812,7 @@ footer {
 
     .populaires-cards {
         display: grid;
-         width: 90%;
+         width: 100%;
          height: 569px;
     }
 
@@ -825,20 +825,24 @@ footer {
     }
 
 
-    .card {
-        width: 335px;
+    .populaires-cards .card {
+        width: 90%;
         height: 146px;
-        padding: 0px;
+        padding: 0px; 
         gap: 1px;
+        
         border-radius: 20px 20px 20px 20px;
         text-align: start;
-        display: flex;
     }
-    
 
     .populaires-cards a {
-        width: 100%;
+        width: 90%; /* Réduit la largeur pour laisser moins d'espace */
+        margin: 0 auto; /* Centrer les cartes */
+        display: flex; /* Aligner les cartes en flexbox */
+        justify-content: space-between; /* Rapprocher les cartes */
+        gap: 10px; /* Réduire l'espace entre les cartes */
     }
+    
 
     .populaires-cards img {
         padding-top: 5px;
