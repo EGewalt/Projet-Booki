@@ -653,13 +653,14 @@ footer {
         display: inline-block;
         width: 50%; 
         text-align: center; 
-        padding-bottom: 15px; 
-       
+        padding-bottom: 20px; 
+
     }
     
     .nav-links a:hover {
         border-top: none;
         border-bottom: solid 2px #0065FC;
+        padding-top: 40px;
     }
 
     .entete {
@@ -836,11 +837,11 @@ footer {
     }
 
     .populaires-cards a {
-        width: 90%; /* Réduit la largeur pour laisser moins d'espace */
-        margin: 0 auto; /* Centrer les cartes */
-        display: flex; /* Aligner les cartes en flexbox */
-        justify-content: space-between; /* Rapprocher les cartes */
-        gap: 10px; /* Réduire l'espace entre les cartes */
+        width: 90%; 
+        margin: 0 auto; 
+        display: flex; 
+        justify-content: space-between; 
+        gap: 10px; 
     }
     
 
