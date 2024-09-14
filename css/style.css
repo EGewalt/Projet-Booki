@@ -460,6 +460,7 @@ input::placeholder {
 .afficherplus {
     padding-left: 20px;
     margin-bottom: -20px;
+    width: 17%;
 }
 
 /* Section Footer */
