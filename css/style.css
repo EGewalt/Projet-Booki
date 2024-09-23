@@ -788,8 +788,9 @@ footer {
     }
 
     .icon-text {
-        width: 100%;
-       
+        width: 90%;
+        padding-left: 20px;
+        padding-top: 30px;
     }
 
     /* Hebergement et Populaire */
