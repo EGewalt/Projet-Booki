@@ -439,7 +439,6 @@ input::placeholder {
     height: 380px;
     gap: 0px;
     border-radius: 20px 20px 0px 0px;
-    box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.75);
     object-fit: cover;
 }
 
@@ -457,8 +456,8 @@ input::placeholder {
 }
 
 .afficherplus {
-    padding-left: 20px;
-    margin-bottom: -20px;
+    margin-top: -25px;
+    padding-left: 25px;
     width: 100%;
 }
 
@@ -513,9 +512,20 @@ footer {
         width: 100%;
     }
 
+    .afficherplus {
+        margin-bottom: 0;
+        margin-top: -15px;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
+    }
+
+    .section-title {
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 5px;
     }
 
     .populaires-cards {
@@ -523,6 +533,7 @@ footer {
         flex-direction: row;
         justify-content: center;
         gap: 25px;
+        padding-bottom: 20px;
     }
 
     .populaires-cards .card {
