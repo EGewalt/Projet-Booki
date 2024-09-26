@@ -256,7 +256,6 @@ p {
     flex-grow: 1;
     font-size: 14px;
     border-left: 1px solid #F2F2F2;
-    height: 100%;
 }
 
 input::placeholder {
@@ -742,6 +741,7 @@ footer {
 
     .titre-filtre h3 {
         font-size: 18px;
+        padding-left: 30px;
     }
 
     .filtres {
@@ -751,7 +751,7 @@ footer {
         text-align: center;
         flex-direction: column;
         grid-template-columns: 1fr 1fr;
-        padding-left: 10px;
+        padding-left: 40px;
     }
 
     .button-eco,
